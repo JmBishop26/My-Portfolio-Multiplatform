@@ -52,7 +52,7 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation(projects.shared)
+
             implementation(libs.navigation)
             implementation(libs.compose.viewmodel)
             implementation(libs.androidx.core.ktx)
